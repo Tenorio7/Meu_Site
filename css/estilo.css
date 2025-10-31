@@ -1,31 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Literata', serif;
+  background-color: white;
+  color: black;
+}
+
 body{
 	background-color:white;
 	font-family:'Literata',serif;
 	color:black;
+	scrollbar-gutter: stable;
 }
 
-.logo{
-	display: block;
-	margin: 50px auto;
-	width: 100px;
-	height: 100px;
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
 }
-main{
-	max-width:550px;
-	width:85%;
-	margin:-40px auto;
-	padding:10px;
-	flex:1;
-	
+
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+main {
+  max-width: 550px;
+  width: 85%;
+  margin: 0 auto; /
+  padding: 10px;
+  position: relative;
+  top: -40px;
 }
 
 h2{
 	font-size:1.4rem;
 	line-height:1.5rem;
 	word-wrap: break-word;	
-	width:92%;
-	margin-left:7%;
 	text-align:justify;
+	margin-top:45px;
 }
 
 .st{
@@ -39,17 +62,19 @@ h2{
 .titulo{
 	text-align:center;
 	color:black;
-	margin:0;
-	padding-top:0.83em;
+	margin:0 auto;
+	padding:0;
 }
 
-header{
-	text-align:center;
-	max-width:550px;
-	width:100%;
-	margin:-94px auto;
-	padding:0 10px;
+header {
+  text-align: center;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+
 }
+
 .interativo a{
 	text-decoration:none;
 	color:black;
@@ -63,13 +88,19 @@ header{
 
 nav{
 	text-decoration:none;
-	padding:0;
+	padding:10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li{
 	list-style:none;
 	text-decoration:none;
 	font-size:20px;
+	margin-bottom:6px;	
 }
 
 nav a{
@@ -155,11 +186,12 @@ footer{
 
 .data_artigo{
 	font-size:1.2rem;
-	margin-top:-24px;
+	margin-top:0px;
 }
 .Artigo{
 	text-align: justify;
 	font-size:1.2rem;
+	margin-top:45px;
 }
 
 .citacoes{
@@ -184,4 +216,9 @@ footer{
 	text-decoration:underline;
 	color:black;
 	
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0; /* valor fixo mais previsível */
 }
