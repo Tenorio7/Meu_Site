@@ -25,13 +25,14 @@ h2{
 	word-wrap: break-word;	
 	width:92%;
 	margin-left:7%;
+	text-align:justify;
 }
 
 .st{
 	font-size:1.2rem;
 	line-height:1.2;
 	font-weight:600;
-			
+				
 }
 
 
