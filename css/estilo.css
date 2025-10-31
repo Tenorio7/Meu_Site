@@ -1,0 +1,186 @@
+body{
+	background-color:white;
+	font-family:'Literata',serif;
+	color:black;
+}
+
+.logo{
+	display: block;
+	margin: 50px auto;
+	width: 100px;
+	height: 100px;
+}
+main{
+	max-width:550px;
+	width:100%;
+	margin:-40px auto;
+	padding:10px;
+	flex:1;
+	
+}
+
+h2{
+	font-size:1.4rem;
+	line-height:1.5rem;
+	word-wrap: break-word;	
+	width:92%;
+	margin-left:7%;
+}
+
+.st{
+	font-size:1.2rem;
+	line-height:1.2;
+	font-weight:600;
+			
+}
+
+
+.titulo{
+	text-align:center;
+	color:black;
+	margin:0;
+	padding-top:0.83em;
+}
+
+header{
+	text-align:center;
+	max-width:550px;
+	width:100%;
+	margin:-94px auto;
+	padding:0 10px;
+}
+.interativo a{
+	text-decoration:none;
+	color:black;
+	font-size:2.3rem;
+	
+}
+
+.interativo a:hover{
+	color:black;
+}
+
+nav{
+	text-decoration:none;
+	padding:0;
+}
+
+nav ul li{
+	list-style:none;
+	text-decoration:none;
+	font-size:20px;
+}
+
+nav a{
+	text-decoration:none;	
+	color:black;
+}
+
+nav a:hover{	
+	color:black;
+}
+
+footer{
+	text-align:center;
+	padding-top:20%;
+}
+
+.listagem h2{
+	margin-left:0;
+	text-align:center;
+}
+.listagem ul {
+  list-style: none;       
+  padding-left: 0;
+  font-size: 17px;
+}
+
+.listagem ul li {
+  background-image: url("../img/discogif.gif");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px; 
+  padding-left: 22px;         
+  margin-bottom: 6px;
+}
+
+.listagem ul li a{
+	text-decoration:none;
+	color:black;
+}
+.listagem ul li a:hover{
+	text-decoration:underline;
+	color:black;
+	
+}
+
+.title{
+	padding-top:80px;
+	font-size:1.2rem;
+}
+
+.title a{
+	text-decoration:none;
+	color:black;
+}
+
+.linha-com-simbolo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.linha-com-simbolo::before,
+.linha-com-simbolo::after {
+	content: "";
+	flex: 1;
+	border-bottom: 1px solid #ccc;
+}
+
+.linha-com-simbolo span {
+	padding: 0 15px;
+	color: black;
+	font-size: 1.2em;
+}
+
+.quebra{
+	border: none;
+	border-top: 1px dashed #000;
+	width: 90%;         
+	margin: 20px auto;
+}
+
+.data_artigo{
+	font-size:1.2rem;
+	margin-top:-24px;
+}
+.Artigo{
+	text-align: justify;
+	font-size:1.2rem;
+}
+
+.citacoes{
+	text-align: justify;
+	font-size:1.2rem;
+}
+
+.tracejado{
+	border: none;
+	border-top: 1px dashed #000;
+	width: 90%;         
+	margin: 20px auto;
+}
+
+.sitesl a{
+	text-decoration:none;
+	color:black;
+	font-size:1.2rem;
+}
+
+.sitesl ul li a:hover{
+	text-decoration:underline;
+	color:black;
+	
+}
