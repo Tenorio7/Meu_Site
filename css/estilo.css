@@ -139,6 +139,7 @@ footer{
 .listagem ul li a{
 	text-decoration:none;
 	color:black;
+
 }
 .listagem ul li a:hover{
 	text-decoration:underline;
@@ -147,7 +148,7 @@ footer{
 }
 
 .title{
-	padding-top:80px;
+	padding-top:25px;
 	font-size:1.2rem;
 }
 
@@ -219,6 +220,6 @@ footer{
 }
 
 footer {
-  text-align: center;
-  padding: 40px 0; /* valor fixo mais previsível */
+  	text-align: center;
+  	padding: 40px 0; 
 }
