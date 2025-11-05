@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  margin-bottom:10px;
 }
 
 html, body {
@@ -52,7 +53,7 @@ h2{
 }
 
 .st{
-	font-size:1.2rem;
+	font-size:1em;
 	line-height:1.2;
 	font-weight:600;
 				
